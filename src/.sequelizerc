@@ -1,0 +1,6 @@
+const path = require('path');
+console.log('hey');
+module.exports = {
+    'config' : path.resolve('config/backend-config', 'development.js'),
+    'migrations-path' : path.resolve('migrations')
+}
